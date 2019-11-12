@@ -14,7 +14,7 @@ to convert simple textured based images to 3d point clouds with some distortion.
 
 > And a simple gimp-texture is converted to a point-cloud which shall be used later to segment the two textures.
 
-![result](./data/gimp_texture3.tif)
+![result](./data/gimp_texture.png)
 
 
 ![result](./result2.png)
