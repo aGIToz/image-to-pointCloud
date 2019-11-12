@@ -18,3 +18,10 @@ to convert simple textured based images to 3d point clouds with some distortion.
 
 
 ![result](./result2.png)
+
+# Usage
+
+```bash
+python image_To_pcd.py -i ./data/wood.png -d 1
+```
+> This should generate the .ply file in the working directory. The `-d` flag other than 1 means the image will not be distored.
