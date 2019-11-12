@@ -1,4 +1,3 @@
-#!/export/home/azad/myenv/bin/python3
 import numpy as np  
 import cv2 
 import matplotlib.image as mpimg
@@ -30,9 +29,9 @@ img = noise + img
 def distort_pcd(my_img_position, **kwargs):
 	l = my_img_position.shape[0] 
 	t = np.linspace(0,1,l,endpoint = False)
-	sig = 0.05 * np.sin(8*np.pi*t)	
+	#sig = 0.05 * np.sin(8*np.pi*t)	
 	#sig = np.sinh(sig)
-	#sig = np.sin(1*np.pi*t)	
+	sig = np.sin(0.8*np.pi*t)	
 	#t = np.linspace(-0.5,0.5,l,endpoint = False)
 	#sig = 0.1 * np.sinc(8*np.pi*t)
 	my_img_position[:,2] = sig
